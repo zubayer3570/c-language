@@ -1,15 +1,11 @@
 #include <stdio.h>
+#include <ctype.h>
+#include <string.h>
+#include <math.h>
 int main()
 {
-   int mb, huthat_knock_deya, late_reply_deya;
-   if (!mb)
-   {
-     huthat_knock_deya = 1;
-   }
-   else if (mb)
-   {
-      huthat_knock_deya = 0;
-      late_reply_deya = 1;
-   }
-   return 0;
+   double x = 29.34996044;
+   double y = -11.2344775e3;
+   printf("%.3f %12.3E %.0e %f \n", x, x, y, ceil(y));
+
 }
